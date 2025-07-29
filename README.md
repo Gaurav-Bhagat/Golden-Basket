@@ -1,12 +1,32 @@
-# React + Vite
+ GOLDEN- BASKET ---- AN E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An end-to-end E-Commerce web application built with modern web technologies. Users can browse products, add items to cart, and place orders. Admins can manage inventory, view orders, and control product listings.
+🔧 Tech Stack
 
-Currently, two official plugins are available:
+Frontend:
+    React.js / HTML / CSS / JavaScript
+    Axios (for API calls)
+    TailwindCSS (styling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend:
+    Node.js with Express.js
+    MongoDB (with Mongoose ORM)
+Other Tools:
+    JWT (Authentication)
+    Bcrypt (Password hashing)
+    Cloudinary / Multer (Image Upload)
+    Postman (API testing)
 
-## Expanding the ESLint configuration
+✨ Features
+🛒 Customer
+    Browse product catalog
+    Filter by category, price, and rating
+    Add/remove items from cart
+    User authentication (login/register)
+    Checkout & order placement
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔐 Admin
+    Add, edit, or delete products
+    View all orders
+    Manage users
+    Upload product images

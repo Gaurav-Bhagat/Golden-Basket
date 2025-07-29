@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+select,input,textarea{
+    border:1px solid rgb(151, 151, 151);
+    outline-color: aquamarine;
+    border-radius: 4px;
+}
+
+.active{
+    background-color: rgb(191, 191, 191);
+    border-color: #000000;
+}

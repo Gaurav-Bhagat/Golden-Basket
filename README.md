@@ -1,39 +1,111 @@
-# Golden Basket
+# Golden Basket — Full-Stack E-Commerce Web App
 
-LIVE DEMO: 
-[Frontend](https://gb-frontend-theta.vercel.app)
+LIVE DEMO:
+🔗 Frontend: https://gb-frontend-theta.vercel.app
 
-[Admin Panel](https://gb-admin-khaki.vercel.app)
+🔗 Admin Panel: https://gb-admin-khaki.vercel.app
 
 
-Golden Basket is a full-stack e-commerce web application built with React, Node.js, Express, MongoDB, JWT, and Tailwind CSS.
-It allows users to browse products, manage their shopping cart.
+🛍️ Overview
+
+Golden Basket is a modern, full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js).
+It provides a smooth shopping experience for users and powerful management features for administrators.
+
+This project demonstrates real-world e-commerce features including authentication, product management, shopping cart, and payment processing.
 
 🚀 Features
+👤 User Features
 
-User Authentication: Secure login and registration using JWT.
+User Authentication using JWT (login, signup)
 
-Product Catalog: Browse, search, and filter products easily.
+Product Listing & Search
 
-Shopping Cart: Add, remove, and update items in real-time.
+Product Filtering
 
-Admin Panel: Manage products and view orders (if implemented).
+Single Product View
 
-Responsive Design: Works beautifully on desktop, tablet, and mobile.
+Shopping Cart (add, update, remove items)
 
-🛠 Tech Stack
-Frontend	React.js, Tailwind CSS
-Backend	Node.js, Express.js
-Database	MongoDB
-Authentication	JWT (JSON Web Tokens)
-Version Control	Git & GitHub
+Secure Checkout
 
-🛒 Usage
+Stripe Payment Gateway Integration
 
-Register / Login: Create an account or log in to start shopping.
+Fully responsive UI with Tailwind CSS
 
-Browse Products: Explore catalog with search and filters.
+🛡️ Admin Features
 
-Shopping Cart: Add, update quantity, or remove items.
+Admin Authentication
 
-Admin Panel: Manage products and view orders.
+Add / Update / Delete Products
+
+View All Products
+
+Manage Orders (if implemented)
+
+Separate Admin Panel Deployment
+
+🧰 Tech Stack
+Frontend
+
+React.js
+
+Vite
+
+Tailwind CSS
+
+Axios
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+JWT Authentication
+
+Stripe API Integration
+
+Deployment
+
+Frontend: Vercel
+
+Admin Panel: Vercel
+
+Backend: Render
+
+Database: MongoDB Atlas
+
+💳 Payment Gateway
+
+Golden Basket currently uses:
+
+✔ Stripe Payment Gateway (Working)
+
+🛒 Features Demo (Usage)
+1️⃣ User Registration / Login
+
+Users can create an account or log in using JWT-secured authentication.
+
+2️⃣ Browse Products
+
+View all available items, search, and filter.
+
+3️⃣ Add to Cart
+
+Fully functional shopping cart with dynamic quantity updates.
+
+4️⃣ Checkout
+
+Integrated with Stripe for secure online payments.
+
+5️⃣ Admin Panel
+
+Manage product catalog and view orders from a separate interface.
+
+🧪 Local Setup
+
+Clone the project:
+git clone https://github.com/your-username/golden-basket.git
+cd golden-basket

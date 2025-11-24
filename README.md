@@ -107,5 +107,5 @@ Manage product catalog and view orders from a separate interface.
 🧪 Local Setup
 
 Clone the project:
-git clone https://github.com/your-username/golden-basket.git
+git clone https://github.com/Gaurav-Bhagat/golden-basket.git
 cd golden-basket

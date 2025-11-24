@@ -1,4 +1,10 @@
-🌟 Golden Basket
+# Golden Basket
+
+LIVE DEMO: 
+[Frontend](https://gb-frontend-theta.vercel.app)
+
+[Admin Panel](https://gb-admin-khaki.vercel.app)
+
 
 Golden Basket is a full-stack e-commerce web application built with React, Node.js, Express, MongoDB, JWT, and Tailwind CSS.
 It allows users to browse products, manage their shopping cart.
